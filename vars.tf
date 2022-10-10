@@ -4,3 +4,6 @@ variable "ENV" {}
 variable "PRIVATE_CIDR" {}
 variable "PUBLIC_CIDR" {}
 variable "AZ" {}
+variable "DEFAULT_VPC_ID" {}
+variable "DEFAULT_ROUTE_TABLE_ID" {}
+variable "DEFAULT_CIDR" {}

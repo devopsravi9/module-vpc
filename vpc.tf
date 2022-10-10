@@ -2,6 +2,6 @@ resource "aws_vpc" "main" {
   cidr_block       = var.VPC_CIDR
 
   tags = {
-    Name = "${PROJECT}-${ENV}"
+    Name = "${var.PROJECT}-${var.ENV}"
   }
 }
